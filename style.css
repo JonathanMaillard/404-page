@@ -1,0 +1,64 @@
+body{
+    background-color: #0C63F5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin:0;
+    padding:0;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+header h1{
+    font-size: 60px;
+    font-weight: bolder;
+    margin:0;
+    padding:0;
+    
+}
+header p{
+    font-size: 30px;
+    margin:0;
+    padding:0;
+}
+
+.backBtn{
+    position: fixed;
+    bottom: 0;
+    right: 6px;
+}
+
+a{
+    background-color: #E8482E;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+a:visited{
+    background-color: #E8482E;
+    color: white;
+}
+
+@keyframes backBtn{
+    from{
+        background-color: #E8482E;
+        font-size: 20px;
+    }
+    to{
+        background-color: #FF4326;
+        font-size: 24px;
+    }
+}
+
+a:hover{
+    animation-name: backBtn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
